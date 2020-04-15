@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b3b3b3;
+}
+
+.wrapper{
+    margin:0 100px;
+    /* border:5px solid  black ; */
+}
+ 
+.header{
+    background-color: #ffffff;
+}
+.header > h1{
+    font-family: Verdana;
+    font-size: 70px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+   color: #1e92de;
+    text-shadow:1px 1px tomato;
+      
+
+
+}
+
+
+.main-nav ul{
+
+    background-color: #292929;
+    list-style:none;
+    padding-left: 30px;
+
+}
+
+
+.main-nav>ul>li{
+display:inline-block;
+padding : 10px;
+}
+
+
+.main-nav >ul > li > a{
+    font-family: cursive;
+    text-decoration: none;
+    font-size: 16px;
+    color:#fff;
+
+}
+.main-nav > ul > li:hover{
+background-color: #111111;
+}
+
+.main-nav > ul > li>a:hover{
+    color:peachpuff;
+
+}
+.container{
+    /* border: solid red 5px; */
+    background-color: white;
+}
+.content{
+    background-color: #fff;
+    min-height: 530px;
+    font-size: 18px;
+    padding: 20px;
+     width:80% ;
+    float:left;
+      
+
+    }
+
+    .content > img{
+        display: block;
+        width: 80%; 
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+    }
+    .right-sidebar{
+        background-color: #ffffff;
+        min-height: 530px;
+        width: 20%;
+        float: right;
+        border-left: solid #b3b3b3 1px;
+    }
+    .right-sidebar > h1{
+        font-family:verdana;
+        background-color: #1e92de;
+        text-align: center;
+        color: #ffffff;
+        padding : 5px;
+        margin-top: 2px;
+        border-top-right-radius: 20px;
+          
+    }
+
+    .right-sidebar > p{
+        font-family:  'gill sans', 'gill sans MT', calibri, 'trebuchet MS', 'sans-serif';
+        padding : 10px;
+    }
+
+    .container::after{
+        content: " ";
+        display: block;
+        clear:both;
+         *zoom:1;
+    }
+      
+ .footer{
+     background-color: #292929;
+     color: #ffffff;
+    text-align: center;
+    padding: 10px;
+ }
+ 
+.footer>a{
+    color:#fff;
+    text-decoration: none;
+
+}
+.footer >a:hover{
+    color: thistle;
+}
+
+
+
